@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var myResume = [{
+            "Basic Info": {
+                "name": "Jay Patel",
+                "email": "jaypatel.in9167@gamil.com",
+                "phone": 8433828915,
+                "degree": "B.E",
+                "location": {
+                    "address": "sanskardham kutir building lalchowky,Kalyan (west)",
+                    "postalCode": 421301,
+                    "city": "Kalyan",
+                    "state": "Maharastra",
+                    "country": "India"
+                },
+                "profiles": [
+                    {
+                        "Linkedin": "https://www.linkedin.com/in/jay8433/",
+                    }
+                ]
+            },
+
+            "education":
+            {
+                "College": "MGM College Of Engineering",
+                "department": "IT",
+                "start year": 2019,
+                "end year": 2022,
+                "cgpa": 7.5,
+            },
+
+            "skills":
+            {
+                "name": "java,c,c++,python,javascript",
+            },
+
+            "languages":
+            {
+                "language": "Gujrati,English,Hindi,Marathi",
+            },
+
+            "Hobbies":
+            {
+                "Hobbies": "Playing cricket,Listening poadcasts,cooking",
+            },
+
+            "Projects":
+            {
+                "Projects": " Live cricket score application than any other application on playstore"
+            }
+
+
+        }]
+        //  var z = JSON.stringify(myResume)//used to conver to send data to server
+        myResume.forEach(function (value) {
+            console.log(value)
+        })
+
+    </script>
+</body>
+
+</html>
